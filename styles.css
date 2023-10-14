@@ -122,6 +122,35 @@ header {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
-    
+}
+
+#transform-world {
+    background-image: url(/assets/images/woman-code.png);
+    width: 1440px;
+    height: 363px;
+    top: 555px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    padding-top: 5px;
+    position: fixed;
+    z-index: -1;
+}
+
+#transform-world p {
+    width: 244px;
+    height: 141px;
+    top: 111px;
+    left: 198px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-shadow: 3px 2px #33A8DB;
+    text-transform: lowercase;
 
 }
