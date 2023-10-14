@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+body {
+    width: 1440px;
+    height: 605px;
+}
+
 header {
     width: 1440px;
     height: 605px;
@@ -29,7 +34,6 @@ header {
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
     background-clip: text;
     -webkit-background-clip: text;
-    
 }
 
 .banner p {
@@ -55,4 +59,69 @@ header {
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
     border-radius: 30px;
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: Hug (792px);
+    height: Hug (325px);
+    top: 723px;
+    left: 324px;
+    gap: 24px;
+    background-color: black;
+}
+
+#course-content h2 {
+    width: 500px;
+    height: 38px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    color: #33A8DB;
+}
+
+ #course-content .modules-list .module {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+.modules-list {
+    width: Hug (792px);
+    height: Hug (325px);
+    top: 723px;
+    left: 324px;
+    gap: 24px;
+}
+
+.module span {
+    color: #33A8DB;
+}
+
+#course-content p {
+    color: #FFFFFF;
+    text-align: center;
+    width: 792px;
+    height: 38px;
+    margin: auto;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    
+
 }
